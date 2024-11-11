@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHOTeL.views.hospedagemtratada"
+             NavigationPage.HasNavigationBar="False"
+             Background="{StaticResource Gray500}">
+    <VerticalStackLayout VerticalOptions="CenterAndExpand">
+
+        <Label Text="Suíte Super Luxo "
+               TextColor="{StaticResource MidnightBlue}"
+               FontFamily="itim"
+               FontSize="50"
+               HorizontalOptions="Center"></Label>
+
+        <Frame Margin="10">
+            <HorizontalStackLayout HorizontalOptions="Center">
+
+                
+                    <HorizontalStackLayout Margin="10" >
+                    <Label Text="Adultos:" Margin="5" FontSize="Small" FontFamily="itim" ></Label>
+                    <Label Text="2" Margin="5"  FontSize="Small" FontFamily="itim" TextColor="{StaticResource White}"></Label>
+                </HorizontalStackLayout>
+                
+
+                <HorizontalStackLayout>
+                    <Label Text="Crianças:" Margin="10" FontSize="Small" FontFamily="itim"></Label>
+                    <Label Text="0" Margin="15"  FontSize="Small" FontFamily="itim" TextColor="{StaticResource White}"></Label>
+                </HorizontalStackLayout>
+                
+            </HorizontalStackLayout>
+        </Frame>
+
+        <Frame Margin="10" >
+            <Grid ColumnDefinitions=" *, *, *"
+                  RowDefinitions="Auto, Auto">
+                <Label Grid.Row="0" Grid.Column="0" Text="check-in:" HorizontalOptions="Center" FontFamily="itim" FontSize="Medium" ></Label>
+                <Label Grid.Row="0" Grid.Column="1" Text="check-out:" HorizontalOptions="Center" FontFamily="itim"  FontSize="Medium"></Label>
+                <Label Grid.Row="0" Grid.Column="2" Text="Estadia:" HorizontalOptions="Center" FontFamily="itim"  FontSize="Medium"></Label>
+
+                <Label Grid.Row="1" Grid.Column="0" Text="11/11/2024" HorizontalOptions="Center" FontFamily="itim"  FontSize="Small"></Label>
+                <Label Grid.Row="1" Grid.Column="1" Text="15/11/2024" HorizontalOptions="Center" FontFamily="itim"  FontSize="Small"></Label>
+                <Label Grid.Row="1" Grid.Column="2" Text="5" HorizontalOptions="Center" FontFamily="itim"  FontSize="Small"></Label>
+            </Grid>
+        </Frame>
+
+        <Frame Margin="10">
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <Label Text="Total:" FontFamily="itim" FontSize="Medium"></Label>
+                <Label Text="R$ 750,00"  FontFamily="itim" FontSize="Medium"></Label>
+            </HorizontalStackLayout> 
+        </Frame>
+
+        <VerticalStackLayout>
+            <Button Text="Voltar" Clicked ="Button_Clicked"  HorizontalOptions="Center"></Button>
+        </VerticalStackLayout>
+    </VerticalStackLayout>
+    
+</ContentPage>

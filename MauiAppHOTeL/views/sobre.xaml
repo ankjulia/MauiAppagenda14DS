@@ -1,0 +1,81 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHOTeL.views.sobre"
+             Title="sobre"
+             Background="{StaticResource Gray600}">
+
+    <VerticalStackLayout>
+        <Label 
+            Text="Sobre o Desenvolvimento"
+            FontSize="30"
+            TextColor="{StaticResource MidnightBlue}"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            Margin="20"
+            FontFamily="itim"/>
+
+        <Label
+            Text=" Este app foi desenvolvido para práticidade no processo de agendamento de hospedagem. "
+            FontSize="20"
+            HorizontalOptions="Center"
+            TextColor="{StaticResource Black}"
+            FontFamily="itim"
+            VerticalOptions="Center"></Label>
+
+        <Label 
+           Text="Nome do desenvolvedos"
+           FontSize="30"
+           TextColor="{StaticResource MidnightBlue}"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            Margin="10"
+            FontFamily="itim"/>
+
+
+        <Label
+            Text=" Ana Julia Da Rocha. "
+            FontSize="20"
+            HorizontalOptions="Center"
+            TextColor="{StaticResource Black}"
+            FontFamily="itim"
+            VerticalOptions="Center"></Label>
+
+        <Label 
+              Text="Versção do App"
+             FontSize="30"
+             TextColor="{StaticResource MidnightBlue}"
+             VerticalOptions="Center" 
+               HorizontalOptions="Center"
+               Margin="10"
+              FontFamily="itim"/>
+
+        <Label
+            Text=" 1.0.0. "
+            FontSize="20"
+            HorizontalOptions="Center"
+            TextColor="{StaticResource Black}"
+            FontFamily="itim"
+            VerticalOptions="Center"></Label>
+
+
+        <Label 
+              Text="Para Contato"
+             FontSize="30"
+             TextColor="{StaticResource MidnightBlue}"
+             VerticalOptions="Center" 
+               HorizontalOptions="Center"
+               Margin="10"
+              FontFamily="itim"/>
+
+        <Label
+    Text=" Anajuliarocha@gmail.com "
+    FontSize="20"
+    HorizontalOptions="Center"
+    TextColor="{StaticResource Black}"
+    FontFamily="itim"
+    VerticalOptions="Center"></Label>
+
+
+
+    </VerticalStackLayout>
+</ContentPage>
